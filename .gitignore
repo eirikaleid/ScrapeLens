@@ -1,0 +1,33 @@
+# Environment files — NEVER commit
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+client/dist/
+
+# Scraped data output (may contain PII or large files)
+scrapes/
+data/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+.gemini/
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
