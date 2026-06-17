@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Trend Scraper | Premium Insights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <div class="logo">
+                <span class="icon">🔥</span>
+                <h1>YouTube Trends</h1>
+            </div>
+            <p class="subtitle">Scraping the most viral content from the last 72 hours</p>
+            <div class="actions">
+                <button id="scrape-btn" class="btn-primary">
+                    <span class="btn-text">Refresh Trends</span>
+                    <span class="loader hidden"></span>
+                </button>
+                <button id="download-btn" class="btn-secondary hidden">
+                    <span>Download JSON</span>
+                </button>
+            </div>
+        </header>
+
+        <section id="results-container" class="results-grid">
+            <!-- Videos will be injected here -->
+            <div class="empty-state">
+                <p>Click "Refresh Trends" to fetch the latest data from YouTube.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Powered by Apify & Node.js • Professional Scraper v1.0</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

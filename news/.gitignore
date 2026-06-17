@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/
+**/.env
+.DS_Store
+*.log
+client/dist/
+client/node_modules/
+.gemini/

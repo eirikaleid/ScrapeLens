@@ -31,3 +31,15 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# AI / LLM internal files (not for public repo)
+CLAUDE.md
+**/CLAUDE.md
+PROGRESSION.md
+**/PROGRESSION.md
+information/
+**/information/
+scratch/
+**/scratch/
+.claude/
+**/.claude/
